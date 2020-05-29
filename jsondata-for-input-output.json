@@ -1,0 +1,851 @@
+1) Welcome URL Showing all available courses.
+
+	URL:- http://localhost:8080/learn-online/learn	
+	HTTP METHOD:- GET
+	HEADERS
+		Accept: application/json
+		
+
+	Output json packet 
+	Status Code: 200 OK
+	Status: SUCCESS
+
+	{
+    "responseDetail": {
+        "Photography": {
+            "4.0": [
+                {
+                    "courseKey": "44eb1806f299a9adcd4e1a130da0a99c6508665a5ab12f55f452c19e982bbf24",
+                    "domainName": "Photography",
+                    "courseName": "Photography Masterclass: A Complete Guide to Photography",
+                    "description": "The Best Online Professional Photography Class: How to Take Amazing Photos for Beginners & Advanced Photographers",
+                    "chapters": 600,
+                    "durationInHours": 400,
+                    "price": 700.0,
+                    "rating": 4.0,
+                    "creationtDate": "2020-05-29",
+                    "lastUpdateDate": "2019-05-29"
+                }
+            ]
+        },
+        "Java": {
+            "4.8": [
+                {
+                    "courseKey": "7a84d7b03398b0978e9bcf23e3a7a102e397b1236141ee71d9b5c8ecda6d9ad6",
+                    "domainName": "Java",
+                    "courseName": "Java Memory Management",
+                    "description": "What Java professionals need to know about memory, garbage collection, tuning the VM, and avoiding memory leaks. This is a course for Java professionals (or aspiring Java professionals) who need an in depth understanding of how memory works in Java. In this course you'll learn what kinds of memory leaks are possible in Java, and how to avoid them. In addition I'll show you tools you can use to analyse how your applications are performing, and detect inefficient memory use, such as objects which are taking up too much memory, or problems causing inefficient garbage collection. And we'll see how to fix these. You don't need to be a Java Expert to do this course, but you should be able to confidently create basic Java code before you start.",
+                    "chapters": 150,
+                    "durationInHours": 300,
+                    "price": 500.0,
+                    "rating": 4.8,
+                    "creationtDate": "2020-01-01",
+                    "lastUpdateDate": "2020-10-30"
+                }
+            ],
+            "4.0": [
+                {
+                    "courseKey": "21a0e835e26afdb69342060084641f61913cd9db4fe5f63addc7a438ebee420f",
+                    "domainName": "Java",
+                    "courseName": "Java 8 New Features In Simple Way",
+                    "description": "Direct Class Room Videos To give Left and Right Anywhere about Lambda Expressions,Streams and More. Java 8 is one of the major and more prestigious version from Java. In this video tutorials we covered every topic  in detail on the board and on the system with live execution. Definitely you can feel like you are learning in class room directly from the instructor. As the part of this course we are covering     the following 11 topics.",
+                    "chapters": 220,
+                    "durationInHours": 400,
+                    "price": 420.0,
+                    "rating": 4.0,
+                    "creationtDate": "2017-11-10",
+                    "lastUpdateDate": "2020-03-10"
+                }
+            ],
+            "5.0": [
+                {
+                    "courseKey": "d483bf6fad787dd0210d1ebd8dc8cd17651d673996f561f1173a578e4e6a9a4e",
+                    "domainName": "Java",
+                    "courseName": "Spring & Hibernate for Beginners (includes Spring Boot)",
+                    "description": "Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate. SPRING BOOT SECTION NOW INCLUDES OVER 6.5 HOURS OF NEW VIDEOS 1 BEST SELLING SPRING-HIBERNATE COURSE ON UDEMY - OVER 38,000 REVIEWS - 5 STARS!",
+                    "chapters": 180,
+                    "durationInHours": 200,
+                    "price": 420.0,
+                    "rating": 5.0,
+                    "creationtDate": "2016-09-28",
+                    "lastUpdateDate": "2010-08-28"
+                }
+            ],
+            "4.4": [
+                {
+                    "courseKey": "3e633d515cb7e087749d52f2f95567ded8b326928c7ad876e32939a26717046e",
+                    "domainName": "Java",
+                    "courseName": "Spring Framework 5: Beginner to Guru",
+                    "description": "Spring Framework 5: Learn Spring Framework 5, Spring Boot 2, Spring MVC, Spring Data JPA, Spring Data MongoDB, Hibernate",
+                    "chapters": 200,
+                    "durationInHours": 800,
+                    "price": 500.0,
+                    "rating": 4.4,
+                    "creationtDate": "2018-02-20",
+                    "lastUpdateDate": "2020-04-28"
+                }
+            ],
+            "4.7": [
+                {
+                    "courseKey": "2e552bb07890a68f4563bc2beaa1a8227aae55106f202494d570cb5ab8ce5fb0",
+                    "domainName": "Java",
+                    "courseName": "Spring Boot Fundamentals",
+                    "description": "I was given an assignment to start working on a spring boot project and this course gave me all the skills required to start working a spring boot project. All through the course, Bharath maintains the same pace, enthusiasm. You will definitely enjoy the course. Go for it without any doubt if you want to quickly learn spring boot with sufficient details. Thanks Bharath - Venu Reddy",
+                    "chapters": 200,
+                    "durationInHours": 500,
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "creationtDate": "2018-06-10",
+                    "lastUpdateDate": "2020-01-01"
+                }
+            ]
+        },
+        "OS": {
+            "2.3": [
+                {
+                    "courseKey": "bf891be28061ea1872c7230254f7f2c20435e5e3801bf4611407cb0a03ab03a0",
+                    "domainName": "OS",
+                    "courseName": "Basic work skills for Linux OS",
+                    "description": "Basics of work with OS Linux. Main commands for work with this OS. At the end of the course student will be able to customize the production environment on the new server including installation and configuration of:",
+                    "chapters": 140,
+                    "durationInHours": 300,
+                    "price": 240.0,
+                    "rating": 2.3,
+                    "creationtDate": "2018-10-12",
+                    "lastUpdateDate": "2019-09-17"
+                }
+            ],
+            "5.0": [
+                {
+                    "courseKey": "c95ed381df818e73e1fb0e85d4a03d2ccf449abc97b73e4e32914ac09f08d04a",
+                    "domainName": "OS",
+                    "courseName": "Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM 1",
+                    "description": "Build Your Own RealTime Operating Systems from first principles . Practice on STM32 and TIVA C boards",
+                    "chapters": 300,
+                    "durationInHours": 800,
+                    "price": 890.0,
+                    "rating": 5.0,
+                    "creationtDate": "2018-10-26",
+                    "lastUpdateDate": "2020-05-29"
+                },
+                {
+                    "courseKey": "b1c4ac4d13406987ab69f5c96a8cc2667d2d29d8bad842f71609220f747611a2",
+                    "domainName": "OS",
+                    "courseName": "Getting Started with ARM mbed OS",
+                    "description": "Build Embedded Firmware with the ARM Mbed OS Platform. With a practical approach, this course teaches you how develop embedded applications using the ARM mbed OS platform. The initial sections of this course provide a wide-ranging introduction to embedded systems, using the mbed and demonstrating how it can be applied to rapidly produce successful embedded designs. The latter sections introduce the concept of real-time operating systems and then go on to teach you how to build real-time embedded applications using the ARM mbed OS platform.",
+                    "chapters": 456,
+                    "durationInHours": 760,
+                    "price": 700.0,
+                    "rating": 5.0,
+                    "creationtDate": "2020-01-10",
+                    "lastUpdateDate": "2019-05-29"
+                }
+            ]
+        },
+        "Docker": {
+            "4.8": [
+                {
+                    "courseKey": "79c987d26b34aa3759509319cba7dd7617b9d84f9b80fb9bca27826919a32cb0",
+                    "domainName": "Docker",
+                    "courseName": "Docker for the Absolute Beginner - Hands On - DevOps",
+                    "description": "Learn Docker with Hands On Coding Exercises. For beginners in DevOps",
+                    "chapters": 350,
+                    "durationInHours": 345,
+                    "price": 560.0,
+                    "rating": 4.8,
+                    "creationtDate": "2020-01-10"
+                }
+            ],
+            "4.3": [
+                {
+                    "courseKey": "f0dd5f8555a82136e0761b48764120d3cb8b045f8272ad0f65a9f2c628a3fd40",
+                    "domainName": "Docker",
+                    "courseName": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+                    "description": "Build, test, deploy containers with the best mega-course on Docker, Kubernetes, Compose, Swarm and Registry using DevOps",
+                    "chapters": 400,
+                    "durationInHours": 250,
+                    "price": 500.0,
+                    "rating": 4.3,
+                    "creationtDate": "2019-01-01",
+                    "lastUpdateDate": "2020-01-29"
+                }
+            ],
+            "4.6": [
+                {
+                    "courseKey": "484fcebd4914e19f10d0c75660852ac6e9969d4c3e32e4c479ea6b6870dc814e",
+                    "domainName": "Docker",
+                    "courseName": "Docker and Kubernetes: The Complete Guide",
+                    "description": "Build, test, and deploy Docker applications with Kubernetes while learning production-style development workflows",
+                    "chapters": 300,
+                    "durationInHours": 400,
+                    "price": 300.0,
+                    "rating": 4.6,
+                    "creationtDate": "2018-05-29",
+                    "lastUpdateDate": "2020-01-01"
+                }
+            ]
+        },
+        "UI": {
+            "5.0": [
+                {
+                    "courseKey": "ea699a8b09c3c99a9d67a7b6e00304c3605df81c1d578ff6f7f8ce63bc5b9acb",
+                    "domainName": "UI",
+                    "courseName": "The Web Developer BootCamp",
+                    "description": "Just updated to include Bootstrap 4.1.3! Hi! Welcome to the Web Developer Bootcamp, the only course you need to learn web development. There are a lot of options for online developer training, but this course is without a doubt the most comprehensive and effective on the market.  ",
+                    "chapters": 100,
+                    "durationInHours": 150,
+                    "price": 420.0,
+                    "rating": 5.0,
+                    "creationtDate": "2019-01-01",
+                    "lastUpdateDate": "2019-10-30"
+                },
+                {
+                    "courseKey": "aad42cec9b7b4a4cf1c0b5f4db6cbdc0026c13972f4316adcf21f0ab4a4ade62",
+                    "domainName": "UI",
+                    "courseName": "Angular Crash Course for Busy Developers",
+                    "description": "Have limited time to learn Angular 4 (Angular 2+)? Take this course and learn Angular in 10 hours!",
+                    "chapters": 250,
+                    "durationInHours": 780,
+                    "price": 400.0,
+                    "rating": 5.0,
+                    "creationtDate": "2020-05-29"
+                },
+                {
+                    "courseKey": "143ec5e24b9ff8554ded7de940b1640aee44da41e0c557f9cc781a648ae030c1",
+                    "domainName": "UI",
+                    "courseName": "Build Responsive Real World Websites with HTML5 and CSS3",
+                    "description": "The easiest way to learn modern web design, HTML5 and CSS3 step-by-step from scratch. Design AND code a huge project.",
+                    "chapters": 300,
+                    "durationInHours": 400,
+                    "price": 600.0,
+                    "rating": 5.0,
+                    "creationtDate": "2019-03-20",
+                    "lastUpdateDate": "2020-05-29"
+                }
+            ],
+            "3.0": [
+                {
+                    "courseKey": "67a7b6e00304c3605df81c1d578ff6f7f8ce63bc5b9acb0210d1ebd8aae56fad7",
+                    "domainName": "UI",
+                    "courseName": "Angular - The Complete Guide (2020 Edition)",
+                    "description": "This course starts from scratch, you neither need to know Angular 1 nor Angular 2!",
+                    "chapters": 500,
+                    "durationInHours": 200,
+                    "price": 420.0,
+                    "rating": 3.0,
+                    "creationtDate": "2020-01-29"
+                }
+            ]
+        },
+        "Personality": {
+            "3.5": [
+                {
+                    "courseKey": "1f7109a26cb2024c126f5cc81dc40739fc65c1bb33c220511a183f6d5046c085",
+                    "domainName": "Personality",
+                    "courseName": "Personality development & DISC persuasion: personality 4.0",
+                    "description": "Personality hacks & personality development using DISC personality development in sales, marketing & your career",
+                    "chapters": 500,
+                    "durationInHours": 1000,
+                    "price": 700.0,
+                    "rating": 3.5,
+                    "creationtDate": "2017-02-09",
+                    "lastUpdateDate": "2020-05-29"
+                }
+            ]
+        },
+        "Microsoft": {
+            "4.8": [
+                {
+                    "courseKey": "9c5cc53951c1ed7fa9739128a0f2249c50749fe1dc48db8babde6a6ce281139a",
+                    "domainName": "Microsoft",
+                    "courseName": "Microsoft Excel - Advanced Excel Formulas & Functions",
+                    "description": "Master 75+ Excel formulas with hands-on demos from a best-selling Microsoft Excel instructor (Excel '07 - Excel 2019)",
+                    "chapters": 700,
+                    "durationInHours": 450,
+                    "price": 430.0,
+                    "rating": 4.8,
+                    "creationtDate": "2018-01-01",
+                    "lastUpdateDate": "2019-01-12"
+                }
+            ]
+        },
+        "Hacking": {
+            "5.0": [
+                {
+                    "courseKey": "422d631e1aa93ef6e5ab1bca624eeb88b6c39d8b6a59f483863da0c8013d89e",
+                    "domainName": "Hacking",
+                    "courseName": "Learn Ethical Hacking From Scratch",
+                    "description": "Become an ethical hacker that can hack computer systems like black hat hackers and secure them like security experts.",
+                    "chapters": 700,
+                    "durationInHours": 340,
+                    "price": 600.0,
+                    "rating": 5.0,
+                    "creationtDate": "2018-01-10",
+                    "lastUpdateDate": "2019-12-18"
+                }
+            ]
+        }
+    },
+    "message": "Courses search by domain and rating is successful",
+    "status": "SUCCESS"
+}
+
+
+2) Signup Student.
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+
+	input json packet 
+	{
+	  "firstName": "Anwar",
+	  "lastName": "Quazi",
+	  "email": "Anwar@gmail.com",
+	  "reemail": "Anwar@gmail.com",
+	  "password": "AppleRed123$",
+	  "repassword": "AppleRed123$",
+	  "active": "true",
+	  "phone": "9999999999",
+	  "city": "Akola",
+	  "state": "MH",
+	  "country": "India"
+	}
+
+	Output json packet
+	Status Code: 200 OK
+	Status: SUCCESS
+
+		{
+		  "responseDetail": {
+			"studentKey": "eb495ff4c03a26f178059999428493d1a25815071935ba351b1f954cf7cb6f95"
+		  },
+		  "message": "Student added/signup is successfully",
+		  "status": "SUCCESS"
+		}
+	
+	
+3) Login Student 
+ 	
+	URL:- http://localhost:8080/learn-online/login
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+
+	input json packet 
+
+		{
+			"email": "Anwar@gmail.com",
+			"password": "AppleRed123$"
+		}
+		
+	Output HEADERS Values
+	Status Code: 200 OK
+	Status: SUCCESS	
+	
+	Authorization:	Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjE1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5BBY8vQxjxtA
+	
+	userId: 62e5d71bf081c649e8075dfa5052e24af6598e3fd8e337e13d01e5aeb18702e1
+	
+	NOTE:- You will get JWT web token in Authorization header of htpp response after successful login. 
+		   You need to pass this JWT Web token as value to Authorization header of your http request 
+		   for secured http request Which are as follows. 
+	        a. Updating student profile (http://localhost:8080/learn-online/learn HTTP PUT)
+			b. Accessing course details by student email 
+			c. Buy courses
+			d. cancelling purchased courses
+
+			
+	
+*****************************************SECURED Rest End point Http Request******************************************	
+
+First of All student have to login application and upon successful login he will  get JWT Webtoken as value in response header of Authorization. You will also observe in following examples that I have logged in first to Purchasing
+and cancelling courses and then I provided JWT Web token as request header value of Authorization then only I am able to 
+purchase or canceel the purchased courses 
+
+4) Update Student Profile.
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- PUT
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjE1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5BBY8vQxjxtA
+		
+	input json packet 
+	
+	{
+		"firstName": "Anwar",
+		"lastName": "Quazi",
+		"email": "Anwar@gmail.com",
+		"reemail": "Anwar@gmail.com",
+		"password": "AppleRed123$",
+		"repassword": "AppleRed123$",
+		"active": "true",
+		"phone": "1988775577",
+		"city": "Patur",
+		"state": "MH",
+		"country": "India"
+	}
+
+
+    Output json packet 
+	Status Code: 200 OK
+	Status: SUCCESS
+	
+	{
+		"responseDetail": {
+			"studentKey": "eb495ff4c03a26f178059999428493d1a25815071935ba351b1f954cf7cb6f95"
+		},
+		"message": "Student update is successfull",
+		"status": "SUCCESS"
+	}	
+	
+
+
+5) Student Purchasing some courses 
+
+	URL:- http://localhost:8080/learn-online/learn/buy
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjE1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5BBY8vQxjxtA
+		
+	Input json packet 
+
+	{
+		"studentEmail":"Anwar@gmail.com",
+		"courseKeys":[
+			"bf891be28061ea1872c7230254f7f2c20435e5e3801bf4611407cb0a03ab03a0",
+			"21a0e835e26afdb69342060084641f61913cd9db4fe5f63addc7a438ebee420f",
+			"d483bf6fad787dd0210d1ebd8dc8cd17651d673996f561f1173a578e4e6a9a4e"
+		]
+	}
+
+    Output json packet 
+	Status Code: 200 OK
+	Status: SUCCESS
+
+	{
+		"responseDetail": {
+			"studentKey": "eb495ff4c03a26f178059999428493d1a25815071935ba351b1f954cf7cb6f95"
+		},
+		"message": "Your courses purchased order have been placed successfully",
+		"status": "SUCCESS"
+	}
+
+	
+6) Student get information of all purchased courses by email as his username
+
+	URL:- http://localhost:8080/learn-online/learn/search/Anwar@gmail.com
+	HTTP METHOD:- GET
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjE1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5BBY8vQxjxtA
+
+		
+	Output json packet 
+	Status Code: 200 OK
+	Status: SUCCESS
+	
+	{
+    "responseDetail": {
+        "studentKey": "eb495ff4c03a26f178059999428493d1a25815071935ba351b1f954cf7cb6f95",
+        "firstName": "Anwar",
+        "lastName": "Quazi",
+        "email": "Anwar@gmail.com",
+        "encryptedPassword": "**********",
+        "phone": "1988775577",
+        "country": "India",
+        "state": "MH",
+        "courseOrders": [
+            {
+                "courseOrderId": 0,
+                "course": {
+                    "courseId": 0,
+                    "courseKey": "d483bf6fad787dd0210d1ebd8dc8cd17651d673996f561f1173a578e4e6a9a4e",
+                    "domainName": "Java",
+                    "courseName": "Spring & Hibernate for Beginners (includes Spring Boot)",
+                    "description": "Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate. SPRING BOOT SECTION NOW INCLUDES OVER 6.5 HOURS OF NEW VIDEOS 1 BEST SELLING SPRING-HIBERNATE COURSE ON UDEMY - OVER 38,000 REVIEWS - 5 STARS!",
+                    "chapters": 180,
+                    "durationInHours": 200,
+                    "price": 420.0,
+                    "rating": 5.0,
+                    "creationtDate": "2016-09-28",
+                    "lastUpdateDate": "2010-08-28"
+                },
+                "rating": 5.0,
+                "creationDate": "2020-05-29",
+                "courseOrderKey": "6e85ef15fcee18626511adb1aacc0ef3c5fe21acac98fb87c34fc318f7a2da13"
+            },
+            {
+                "courseOrderId": 0,
+                "course": {
+                    "courseId": 0,
+                    "courseKey": "21a0e835e26afdb69342060084641f61913cd9db4fe5f63addc7a438ebee420f",
+                    "domainName": "Java",
+                    "courseName": "Java 8 New Features In Simple Way",
+                    "description": "Direct Class Room Videos To give Left and Right Anywhere about Lambda Expressions,Streams and More. Java 8 is one of the major and more prestigious version from Java. In this video tutorials we covered every topic  in detail on the board and on the system with live execution. Definitely you can feel like you are learning in class room directly from the instructor. As the part of this course we are covering     the following 11 topics.",
+                    "chapters": 220,
+                    "durationInHours": 400,
+                    "price": 420.0,
+                    "rating": 4.0,
+                    "creationtDate": "2017-11-10",
+                    "lastUpdateDate": "2020-03-10"
+                },
+                "rating": 4.0,
+                "creationDate": "2020-05-29",
+                "courseOrderKey": "3232f0299bc0ee680faefe2dea097377833fec99814053ed5c6f5118bcd6bff"
+            },
+            {
+                "courseOrderId": 0,
+                "course": {
+                    "courseId": 0,
+                    "courseKey": "bf891be28061ea1872c7230254f7f2c20435e5e3801bf4611407cb0a03ab03a0",
+                    "domainName": "OS",
+                    "courseName": "Basic work skills for Linux OS",
+                    "description": "Basics of work with OS Linux. Main commands for work with this OS. At the end of the course student will be able to customize the production environment on the new server including installation and configuration of:",
+                    "chapters": 140,
+                    "durationInHours": 300,
+                    "price": 240.0,
+                    "rating": 2.3,
+                    "creationtDate": "2018-10-12",
+                    "lastUpdateDate": "2019-09-17"
+                },
+                "rating": 2.3,
+                "creationDate": "2020-05-29",
+                "courseOrderKey": "36915a1acf8c52c3186ccc1c55e0f409844b356ee37651412435a9437074f231"
+            }
+        ],
+        "active": true,
+        "creationtDate": "2020-05-29",
+        "lastUpdateDate": "2020-05-29"
+    },
+    "message": "Data Found",
+    "status": "SUCCESS"
+}
+	
+7) Student has Cancelled the purchased Courses provided that purchasing would not exceed 30 days from date of purchasing
+
+	URL:- http://localhost:8080/learn-online/learn/search/anand@gmail.com
+	HTTP METHOD:- GET
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjE1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5BBY8vQxjxtA
+
+	Input json packet
+	{
+	   "studentEmail":"Anwar@gmail.com",
+	   "courseKeys":[
+			"3232f0299bc0ee680faefe2dea097377833fec99814053ed5c6f5118bcd6bff4",
+			"36915a1acf8c52c3186ccc1c55e0f409844b356ee37651412435a9437074f231"
+		]
+	}
+
+	Output json packet 
+	Status Code: 200 OK
+	Status: SUCCESS
+	{
+		"responseDetail": {
+		"studentKey": "eb495ff4c03a26f178059999428493d1a25815071935ba351b1f954cf7cb6f95"
+		},
+		"message": "Courses canncellation request proccessed sucessfully",
+		"status": "SUCCESS"
+	}
+
+**************************In Following some of validation testing input/output are given**********************
+
+
+8) Student Signup. multiple invalid fields.
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+
+	
+	input json packet 
+	{
+		"firstName":"Guddu",
+		"lastName":"",
+		"email":"Guddu@gmail.com",
+		"reemail":"Gudd@gmailcom",
+		"password":"ApplfRed123$",
+		"repassword":"Aleed13",
+		"active":"true",
+		"phone":"766l9956",
+		"city":"Bangalore",
+		"state":"KA",
+		"country":"India"
+}
+
+	Output json packet
+	Status Code: 400 Bad Request
+	Status: 400
+
+	{
+		"timestamp": "2020-05-29",
+		"status": 400,
+		"errors": [
+			"Typed and retyped email should match.",
+			"Last name is mandatory.",
+			"Typed and retyped password should match.",
+			"Please enter valid email address",
+			"Phone number must be 10 digit long",
+			"Numeric value is valid for phone number",
+			"Password must be 8 or more characters in length.,Password must contain 1 or more special characters."
+		]
+	}
+
+
+9) Student Update and forget to enter phone number
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- PUT
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+
+	input json packet 
+	{
+		 "firstName": "Anwar",
+		 "lastName": "Quazi",
+		 "email": "Anwar@gmail.com",
+		 "reemail": "Anwar@gmail.com",
+		 "password": "AppleRed123$",
+		 "repassword": "AppleRed123$",
+		 "active": "true",
+		 "phone": "",
+		 "city": "Patur",
+		 "state": "MH",
+		 "country": "India"
+	}
+
+	Output json packet
+	Status Code: 400 Bad Request
+	Status: 400
+	{
+		"timestamp": "2020-05-29",
+		"status": 400,
+		"errors": [
+			"Phone number must be 10 digit long",
+			"Numeric value is valid for phone number"
+		]
+}
+	
+10) Student Signup Invalid Input email and email confirmation mismatched
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+
+	input json packet 
+	{
+		"firstName":"Farhan",
+		"lastName":"Quazi",
+		"email":"Farhan@gmail.com",
+		"reemail":"Guddu@gmailcom",
+		"password":"ApplfRed123$",
+		"repassword":"ApplfRed123$",
+		"active":"true",
+		"phone":"9999999999",
+		"city":"Bangalore",
+		"state":"KA",
+		"country":"India"
+	}
+
+	Output json packet
+	Status Code: 400 Bad Request
+	Status: 400
+	{
+		"timestamp": "2020-05-29",
+		"status": 400,
+		"errors": [
+			"Typed and retyped email should match.",
+			"Please enter valid email address"
+		]
+	}
+		
+11) Student Signup Invalid password. Special character required.
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+	
+	input json packet 
+	{
+		"firstName":"Farhan",
+		"lastName":"Quazi",
+		"email":"Farhan@gmail.com",
+		"reemail":"Farhan@gmail.com",
+		"password":"AppleRed1234",
+		"repassword":"AppleRed1234",
+		"active":"true",
+		"phone":"9999999999",
+		"city":"Bangalore",
+		"state":"KA",
+		"country":"India"
+	}
+
+	Output json packet
+	Status Code: 400 Bad Request
+	Status: 400
+	
+	{
+		"timestamp": "2020-05-29",
+		"status": 400,
+		"errors": [
+			"Password must contain 1 or more special characters.",
+			"Password must contain 1 or more special characters."
+		]
+	}
+
+
+12) Student trying to purchasing same course again 
+
+	URL:- http://localhost:8080/learn-online/learn/buy
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmFuZEBnbWFpbC5jb20iLCJleHAiOjE1OTEzMDk4NjV9.LG0mbCQBCCQRz3r4RrhJuTzYP5FhFKJ89kSYbwbAXTS-uYhKvO8VXSgHtwDOD1-JIXvB2gjoBWTyN-xXhbQ5KA
+		
+	Input json packet 
+
+	{
+	   "studentEmail":"Anwar@gmail.com",
+	   "courseKeys":[
+		  "2e552bb07890a68f4563bc2beaa1a8227aae55106f202494d570cb5ab8ce5fb0",
+		  "d483bf6fad787dd0210d1ebd8dc8cd17651d673996f561f1173a578e4e6a9a4e",
+		  "3e633d515cb7e087749d52f2f95567ded8b326928c7ad876e32939a26717046e"
+	   ]
+	}
+
+    Output json packet 
+	Status Code: 500 Internal error
+
+	{
+		"localDate": "2020-05-29",
+		"message": "Your are purchasing same courses again Spring & Hibernate for Beginners (includes Spring Boot). Please remove duplicate course entries"
+	}
+	
+	
+13) Student Attempted to purchase non-exist course.
+
+	URL:- http://localhost:8080/learn-online/learn/buy
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmFuZEBnbWFpbC5jb20iLCJleHAiOjE1OTEzMDk4NjV9.LG0mbCQBCCQRz3r4RrhJuTzYP5FhFKJ89kSYbwbAXTS-uYhKvO8VXSgHtwDOD1-JIXvB2gjoBWTyN-xXhbQ5KA
+		
+	Input json packet
+	{
+	   "studentEmail":"Anwar@gmail.com",
+	   "courseKeys":["2e55abb0789ca62f4563bc2beaa1a8227aae55106f202494d570cb5ab8ce5fb0"]
+	}	
+	
+	Output json packet 
+	Status Code: 500 Internal error
+	
+	{
+		"localDate": "2020-05-29",
+		"message": "Requested courses are not found For Purchase. Go to our App portal and see the available courses."
+	}
+	
+	
+***********************Authorization And Authentication Vialation**********************************	
+	
+14) Student try to purchase course with passing JWT Webtoken value to Authorization request header and 
+    get 403 Forbidden Error.  
+   	
+	URL:- http://localhost:8080/learn-online/learn/buy
+	HTTP METHOD:- POST
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		
+	Input json packet 
+
+	{
+	   "studentEmail":"Anwar@gmail.com",
+	   "courseKeys":[
+		  "3e633d515cb7e087749d52f2f95567ded8b326928c7ad876e32939a26717046e",
+		  "c95ed381df818e73e1fb0e85d4a03d2ccf449abc97b73e4e32914ac09f08d04a"
+	   ]
+	}
+	
+	Output json packet 
+	Status Code: 403 Internal error
+	
+	{
+		"timestamp": "2020-05-29T02:48:00.503+0000",
+		"status": 403,
+		"error": "Forbidden",
+		"message": "Access Denied",
+		"path": "/learn-online/learn/buy"
+	}
+	
+
+15) Student try to update his profile and provided expired JWT Web Token. The life of web token is 10 days.
+
+	URL:- http://localhost:8080/learn-online/learn
+	HTTP METHOD:- PUT
+	HEADERS
+		Content-type: application/json
+		Accept: application/json
+		Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbndhckBnbWFpbC5jb20iLCJleHAiOjP1OTE1NjI3NDF9.6mG6NUZ-KNeaLv6n7iakqm24U2F7rpFnx3VhCrD_NUFAq8uFmfP1IR_wxh-JQGUkKwKtBiCg_t5c7Y8vQxj4t2
+
+		{
+			"firstName": "Anwar",
+			"lastName": "Quazi",
+			"email": "Anwar@gmail.com",
+			"reemail": "Anwar@gmail.com",
+			"password": "AppleRed123$",
+			"repassword": "AppleRed123$",
+			"active": "true",
+			"phone": "9999999999",
+			"city": "Patur",
+			"state": "MH",
+			"country": "India"
+		}
+
+
+	Output json packet 
+	Status Code: 403 Internal error
+	
+	{
+		"timestamp": "2020-05-29T02:50:12.975+0000",
+		"status": 403,
+		"error": "Forbidden",
+		"message": "Access Denied",
+		"path": "/learn-online/learn"
+	}	
+	
+16) Student tried to access his profile without JWT Webtoken and get security related error that 403 Forbidden.	
+	
+		URL:- http://localhost:8080/learn-online/learn/search/Anwar@gmail.com
+		HTTP METHOD:- GET
+		HEADERS
+			Content-type: application/json
+			Accept: application/json
+		
+	
+	{
+		"timestamp": "2020-05-29T02:50:12.975+0000",
+		"status": 403,
+		"error": "Forbidden",
+		"message": "Access Denied",
+		"path": "/learn-online/learn"
+	}	
